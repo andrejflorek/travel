@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.cappa{
+    display: flex;
+    background-image:url("images/pozadie.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    height: 800px;
+    font-size:30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Grid */
+main{
+    margin: 0 10%;
+}
+.blog{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.blogM{
+    font-size:30px;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.blogM h2{
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+.blogM img{
+    border-radius: 30px 0;
+    margin: 30px;
+}
+
+.text{
+    text-align: left;
+    border-left: 2px solid black;
+    max-width: 1500px;
+    padding-left: 30px;    
+    background-color: rgba(197, 189, 189, 0.115);
+}
+
+/* Pätička */
+footer{
+    background: rgb(198, 186, 186);
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info{
+    background: whitesmoke;
+    border-radius: 0 30px;
+}
+.infoF img{
+    border-radius:100%;
+}
+
+.info h3{
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(64, 117, 231);
+    margin: 10px;
+}
+
+.info p{
+    font-style: italic;
+    font-size: 20px;
+    margin: 10px;
+}
