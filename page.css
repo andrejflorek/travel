@@ -45,7 +45,7 @@ main{
 }
 
 .blogM h2{
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 5%;
 }
 
@@ -56,6 +56,7 @@ main{
 
 .text{
     text-align: left;
+    font-size: 20px;
     border-left: 2px solid black;
     max-width: 1500px;
     padding-left: 30px;    
